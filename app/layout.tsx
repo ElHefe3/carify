@@ -1,6 +1,5 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-import { HotToaster } from '../components/hot-toaster'
 
 export const metadata = {
   title: 'Vercel Postgres AI-powered Semantic Search Demo',
@@ -23,7 +22,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.variable}>
         {children}
-        <HotToaster />
       </body>
     </html>
   )
